@@ -14,16 +14,24 @@ npm i master-object
 
 ```ts
 const MasterObject = require('master-object').default // CommonJS module
+```
+
+```ts
 import MasterObject from 'master-object' // ES module
 ```
 
 ## Usage
 
 MasterObject consists of 5 methods:
+
 get - reading
+
 set - creation and updating
+
 delete - deletion
+
 exist - nesting check
+
 log - logs to console
 
 ```ts
